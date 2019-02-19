@@ -9,7 +9,7 @@ BOOKS = {'1984': 5,
 def get_review(name):
     if name in BOOKS:
         return BOOKS[name]
-    print(f"Cannot find book {name}")
+    print(f"NEMUZU find book {name}")
     raise Exception("Invalid book name specified")
 
 
